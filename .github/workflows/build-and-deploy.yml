@@ -31,5 +31,6 @@ jobs:
         name: test-reports
         path: build/reports/tests/test
 
-
+    - name: Publish package
+      run: ./gradlew publish
     
